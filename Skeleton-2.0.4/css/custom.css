@@ -1,0 +1,34 @@
+/*custom.css*/
+body{
+	display: block;
+}
+
+section {
+	height: 100vh;
+}
+
+.text-box {
+	display: flex;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.6px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+u {
+	color: #0059F5;
+	text-decoration: none;	
+}
+
+.outer-container {
+	width: 100%;
+	background-color: #D8D8D8;
+}
