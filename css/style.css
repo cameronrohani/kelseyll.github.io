@@ -1,3 +1,10 @@
+/*
+Kelsey Legault
+October 2015
+ */
+
+
+/* Base Styles ----------------------------------- */
 
 html {
   -webkit-box-sizing: border-box;
@@ -23,6 +30,13 @@ section {
 	/*Minus border width from section height*/
 	height: calc(100vh - 80px);
 }
+
+.outer-container {
+	width: 100%;
+	background-color: #D8D8D8;
+}
+
+/* Typography ----------------------------------- */
 
 h1,h2,p {
 	text-rendering: optimizeLegibility;
@@ -51,7 +65,17 @@ u {
 	text-decoration: none;	
 }
 
-.outer-container {
-	width: 100%;
-	background-color: #D8D8D8;
-}
+
+/* Grid ----------------------------------- */
+.col-1 	{width: 8.333333333%;	}
+.col-2 	{width: 16.666666666%;	}
+.col-3 	{width: 25.000000000%;	}
+.col-4 	{width: 33.333333333%;	}
+.col-5 	{width: 41.666666666%;	}
+.col-6 	{width: 50.000000000%;	}
+.col-7 	{width: 58.333333333%;	}
+.col-8 	{width: 66.666666666%;	}
+.col-9 	{width: 75.000000000%;	}
+.col-10 {width: 83.333333333%;	}
+.col-11 {width: 88.666666666%;	}
+.col-12 {width: 100.000000000%;	}
