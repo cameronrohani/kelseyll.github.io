@@ -21,9 +21,7 @@ html {
 
 body {
 	font-family: 'Karla', sans-serif;
-	background-color: #D8D8D8;
 	border: 40px solid #00298A;
-	color: #333;
 }
 
 section {
@@ -32,8 +30,8 @@ section {
 }
 
 .outer-container {
+	background-color: #EEE;
 	width: 100%;
-	background-color: #D8D8D8;
 }
 
 /* Typography ----------------------------------- */
@@ -44,38 +42,50 @@ h1,h2,p {
 
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-size: 4rem;
+	font-size: 40px;
 	letter-spacing: 0.6px;
 	font-weight: 400;
 }
 
 h2 {
-	font-size: 16px;
+	
 	font-weight: 400;
 	letter-spacing: 0.8px;
 }
 
 p {
-	font-size: 1.6rem;
+	font-size: 16px;
 	letter-spacing: 0.9px;
 }
 
 u {
 	color: #0059F5;
-	text-decoration: none;	
+	text-decoration: none;
+}
+
+.hero-image {
+	width: 65%;
 }
 
 
 /* Grid ----------------------------------- */
-.col-1 	{width: 8.333333333%;	}
-.col-2 	{width: 16.666666666%;	}
-.col-3 	{width: 25.000000000%;	}
-.col-4 	{width: 33.333333333%;	}
-.col-5 	{width: 41.666666666%;	}
-.col-6 	{width: 50.000000000%;	}
-.col-7 	{width: 58.333333333%;	}
-.col-8 	{width: 66.666666666%;	}
-.col-9 	{width: 75.000000000%;	}
-.col-10 {width: 83.333333333%;	}
-.col-11 {width: 88.666666666%;	}
-.col-12 {width: 100.000000000%;	}
+.row {
+	overflow: auto;
+	display: flex;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
+.col-10, .col-11, .col-12 { margin: auto 0; height: 100vh;}
+
+.col-1 	{	width: 8.333333333%;	}
+.col-2 	{	width: 16.666666666%;	}
+.col-3 	{	width: 25.000000000%;	}
+.col-4 	{	width: 33.333333333%;	}
+.col-5 	{	width: 41.666666666%;	}
+.col-6 	{	width: 50.000000000%;	}
+.col-7 	{	width: 58.333333333%;	}
+.col-8 	{	width: 66.666666666%;	}
+.col-9 	{	width: 75.000000000%;	}
+.col-10 {	width: 83.333333333%;	}
+.col-11 {	width: 88.666666666%;	}
+.col-12 {	width: 100.000000000%;	}
