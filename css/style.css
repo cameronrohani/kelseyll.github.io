@@ -64,6 +64,7 @@ u {
 }
 
 .hero-image {
+	flex-flow: center;
 	width: 65%;
 }
 
@@ -75,7 +76,15 @@ u {
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
-.col-10, .col-11, .col-12 { margin: auto 0; height: 100vh; display: flex; flex-direction: column; justify-content: center;}
+.col-10, .col-11, .col-12 { 
+	margin: auto 0;
+	height: calc(100vh - 80px); 
+	display: flex;
+	flex-direction: column;
+	flex-flow: center;
+	justify-content: center;
+	align-items:center;
+}
 
 .col-1 	{	width: 8.333333333%;	}
 .col-2 	{	width: 16.666666666%;	}
