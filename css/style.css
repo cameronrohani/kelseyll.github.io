@@ -72,12 +72,18 @@ u {
 	width: 65%;
 }
 
-.content {
+.content, .links {
 	padding: 0 0 0 10%;
 }
 
 .links li {
 	list-style: none;
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+.links ul {
+	padding: 0;
 }
 
 
@@ -94,8 +100,9 @@ u {
 	display: flex;
 	flex-direction: column;
 	flex-flow: center;
-	justify-content: center;
-	align-items:center;
+	justify-content: space-around;
+	align-items:flex-start;
+
 }
 
 .col-1 	{	width: 8.333333333%;	}
