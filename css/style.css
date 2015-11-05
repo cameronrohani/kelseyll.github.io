@@ -21,12 +21,12 @@ html {
 
 body {
 	font-family: 'Karla', sans-serif;
-	border: 40px solid #00298A;
+	border: calc(100vw/50) solid #00298A;
 }
 
 section {
 	/*Minus border width from section height*/
-	height: calc(100vh - 80px);
+	height: calc(100vh - (100vw/25));
 }
 
 .outer-container {
