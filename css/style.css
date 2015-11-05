@@ -58,6 +58,10 @@ p {
 	letter-spacing: 0.9px;
 }
 
+a {
+	color: #0059F5;
+}
+
 u {
 	color: #0059F5;
 	text-decoration: none;
@@ -66,6 +70,14 @@ u {
 .hero-image {
 	flex-flow: center;
 	width: 65%;
+}
+
+.content {
+	padding: 0 0 0 10%;
+}
+
+.links li {
+	list-style: none;
 }
 
 
