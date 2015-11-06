@@ -10,6 +10,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  background-color: pink
 }
 
 *, *:before, *:after {
@@ -21,12 +22,13 @@ html {
 
 body {
 	font-family: 'Karla', sans-serif;
-	border: calc(100vw/50) solid #00298A;
+	border: calc(100vw/70) solid #00298A;
 }
 
 section {
 	/*Minus border width from section height*/
-	height: calc(100vh - (100vw/25));
+	height: calc(100vh - (100vw/35));
+	background-color: #fff;
 }
 
 .outer-container {
@@ -63,17 +65,13 @@ a {
 }
 
 u {
-	color: #0059F5;
+	color:  #CBA23A;
 	text-decoration: none;
 }
 
 .hero-image {
 	flex-flow: center;
 	width: 65%;
-}
-
-.content, .links {
-	padding: 0 0 0 10%;
 }
 
 .links li {
@@ -86,6 +84,12 @@ u {
 	padding: 0;
 }
 
+.flex-end {
+	align-self: flex-end;
+}
+
+
+
 
 /* Grid ----------------------------------- */
 .row {
@@ -96,13 +100,12 @@ u {
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
 .col-10, .col-11, .col-12 { 
 	margin: auto 0;
-	height: calc(100vh - 80px); 
 	display: flex;
 	flex-direction: column;
 	flex-flow: center;
 	justify-content: space-around;
 	align-items:flex-start;
-
+	padding: 0 3%;
 }
 
 .col-1 	{	width: 8.333333333%;	}
