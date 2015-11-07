@@ -115,7 +115,7 @@ u {
 }
 
 .row {
-    overflow: auto;
+    overflow: hidden;
     display: flex;
 }
 
