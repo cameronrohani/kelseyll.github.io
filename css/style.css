@@ -7,89 +7,90 @@ October 2015
 /* Base Styles ----------------------------------- */
 
 html {
-  background-color: pink
+    background-color: pink;
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-	font-family: 'Karla', sans-serif;
-	border: calc(100vw/70) solid #283482;
+    font-family: 'Karla', sans-serif;
+    border-width: calc(100vw/70);
+    border-image: linear-gradient(#00298A, #0059F5) 5% stretch;
 }
 
 section {
-	/*Minus border width from section height*/
-	height: calc(100vh - (100vw/35));
-	background-color: #fff;
-	min-height: 300px;
+    /*Minus border width from section height*/
+    height: calc(100vh - (100vw/35));
+    background-color: #fff;
+    min-height: 300px;
 }
 
 .outer-container {
-	background-color: #EEE;
-	width: 100%;
+    background-color: #EEE;
+    width: 100%;
 }
 
 /* Typography ----------------------------------- */
 
 h1,h2,p {
-	text-rendering: optimizeLegibility;
-	color: #000;
+    text-rendering: optimizeLegibility;
+    color: #000;
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
-	font-size: 40px;
-	letter-spacing: 0.6px;
-	font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
 }
 
 h2 {
-	
-	font-weight: 400;
-	letter-spacing: 0.8px;
+    
+    font-weight: 400;
+    letter-spacing: 0.8px;
 }
 
 p {
-	font-size: 16px;
-	letter-spacing: 0.9px;
-	line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    line-height: 1.6;
 }
 
 a {
-	color: #0059F5;
+    color: #0059F5;
 }
 
 u {
-	color:  #1A3FD5;
-	text-decoration: none;
+    color:  #1A3FD5;
+    text-decoration: none;
 }
 
 .hero-image {
-	flex-flow: center;
-	width: 65%;
+    flex-flow: center;
+    width: 65%;
 }
 .links {
-	justify-content: flex-start; 
+    justify-content: flex-start; 
 }
 
 
 .links li {
-	list-style: none;
-	display: inline-block;
-	padding: 0 10px 0 0;
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px 0 0;
 }
 
 .links ul {
-	padding: 0;
+    padding: 0;
 }
 
 .flex-start {
-	width: 100%
+    width: 100%
 }
 
 
@@ -97,64 +98,50 @@ u {
 
 /* Grid ----------------------------------- */
 .flex-col {
-	display: flex;
-	justify-content:center;
-	flex-direction:column;
-	padding: 50px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    padding: 50px;
 }
 
 .flex-row {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .content-row {
-	height: 100%
+    height: 100%
 }
 
 .row {
-	overflow: auto;
-	display: flex;
+    overflow: auto;
+    display: flex;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
 .col-10, .col-11, .col-12 { 
-	margin: auto 0;
-	display: flex;
-	flex-direction: column;
-	flex-flow: center;
-	justify-content: space-around;
-	align-items:flex-start;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-flow: center;
+    justify-content: space-around;
+    align-items:flex-start;
 }
 
-.col-1 	{	width: 8.333333333%;	}
-.col-2 	{	width: 16.666666666%;	}
-.col-3 	{	width: 25.000000000%;	}
-.col-4 	{	width: 33.333333333%;	}
-.col-5 	{	width: 41.666666666%;	}
-.col-6 	{	width: 50.000000000%;	}
-.col-7 	{	width: 58.333333333%;	}
-.col-8 	{	width: 66.666666666%;	}
-.col-9 	{	width: 75.000000000%;	}
-.col-10 {	width: 83.333333333%;	}
-.col-11 {	width: 88.666666666%;	}
-.col-12 {	width: 100.000000000%;	}
+.col-1  {   width: 8.333333333%;    }
+.col-2  {   width: 16.666666666%;   }
+.col-3  {   width: 25.000000000%;   }
+.col-4  {   width: 33.333333333%;   }
+.col-5  {   width: 41.666666666%;   }
+.col-6  {   width: 50.000000000%;   }
+.col-7  {   width: 58.333333333%;   }
+.col-8  {   width: 66.666666666%;   }
+.col-9  {   width: 75.000000000%;   }
+.col-10 {   width: 83.333333333%;   }
+.col-11 {   width: 88.666666666%;   }
+.col-12 {   width: 100.000000000%;  }
 
 .flex-end {
-	align-self: flex-end;
+    align-self: flex-end;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
