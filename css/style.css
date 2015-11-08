@@ -65,23 +65,27 @@ a {
     line-height: 1.8;
     text-decoration: none;
     color: #07198A;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
 }
  
 .link__strike {
     position: relative;
     display: inline-block;
-    /*Add invisable bottom border to avoid displacement on hover*/
+    /*Add invisible bottom border to avoid displacement on hover*/
     border-bottom: 1px rgba(0,0,0,0);
+}
+
+.link__strike:hover {
+    border-bottom: 1px rgba(0,0,0,1);
 }
 
 .link__strike::before {
     content: '';
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid;
+    border-color: rgba(0,0,0,0.5);
     width: 100%;
     position: absolute;
-    right: 0;
-    top: 50%;
+    bottom: 45%;
 }
 
 u {
