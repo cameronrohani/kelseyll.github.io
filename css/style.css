@@ -61,14 +61,18 @@ p {
     line-height: 1.6;
 }
 
-a {
+a { 
+    line-height: 1.8;
+    text-decoration: none;
     color: #07198A;
+    border-bottom: 1px solid red;
 }
  
 .link__strike {
-    display: none;
     position: relative;
     display: inline-block;
+    /*Add invisable bottom border to avoid displacement on hover*/
+    border-bottom: 1px rgba(0,0,0,0);
 }
 
 .link__strike::before {
@@ -77,11 +81,7 @@ a {
     width: 100%;
     position: absolute;
     right: 0;
-    top: 60%;
-}
-
-.link__strike:hover {
-    border-height: 10px;
+    top: 50%;
 }
 
 u {
