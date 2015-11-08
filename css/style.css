@@ -20,7 +20,7 @@ html {
 body {
     font-family: 'Karla', sans-serif;
     border-width: calc(100vw/70);
-    border-image: linear-gradient(#00298A, #0059F5) 5% stretch;
+    border-image: linear-gradient(to bottom, #fff0c6, #CADAFF) 1% stretch;
 }
 
 section {
@@ -62,11 +62,30 @@ p {
 }
 
 a {
-    color: #0059F5;
+    color: #07198A;
+}
+ 
+.link__strike {
+    display: none;
+    position: relative;
+    display: inline-block;
+}
+
+.link__strike::before {
+    content: '';
+    border-bottom: 1px solid red;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+.link__strike:hover {
+    border-height: 10px;
 }
 
 u {
-    color:  #1A3FD5;
+    color:  #07198A;
     text-decoration: none;
 }
 
