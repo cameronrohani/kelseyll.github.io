@@ -104,14 +104,19 @@ a {
   transition: width 0.5s;
 }
 
-.flex-end .link-underline:after {
-  right: 0;
-  left: auto;
-} 
-
 .link-underline:hover:after {
   width: 100%;
 }
+
+.flex-end .link-underline:after {
+  right: 0;
+  left: auto;
+}
+
+.flex-end .link-underline {
+  opacity: 1;
+}
+
 
 /* Grid ----------------------------------- */
 .flex-col {
@@ -132,7 +137,6 @@ a {
 }
 
 .row {
-    overflow: hidden;
     display: flex;
 }
 
@@ -160,5 +164,30 @@ a {
 .col-12 {   width: 100.000000000%;  }
 
 .flex-end {
-    align-self: flex-end;
+  position: relative;
 }
+.flex-end li {
+  position: relative;
+  padding:0;
+  transition: opacity .3s cubic-bezier(0.4, 0.21, 0.71, 0.46);
+}
+.flex-end li:last-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.flex-end:hover li:last-of-type {
+  opacity: 1;
+  width:auto;
+}
+.flex-end:hover li:first-of-type {
+  opacity: 0;
+}
+
+
+
+
+
+
+
