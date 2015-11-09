@@ -170,7 +170,7 @@ a {
 .flex-end li {
   position: relative;
   padding:0;
-  transition: opacity .3s cubic-bezier(0.4, 0.21, 0.71, 0.46);
+  transition: opacity .4s cubic-bezier(0.5, 0.64, 0.52, 0.63);
 }
 .flex-end li:last-of-type {
   position: absolute;
