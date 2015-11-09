@@ -64,13 +64,8 @@ p {
 a { 
     line-height: 1.8;
     text-decoration: none;
-    color: #07198A;
-    border-bottom: 1px solid rgba(7,25,138,1);
-}
-
-u {
-    color:  #07198A;
-    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid rgba(0,0,0,1);
 }
 
 .links {
@@ -87,7 +82,7 @@ u {
     padding: 0;
 }
 
-.link-underline {
+.link-underline, .link-underline-email {
   position: relative;
   transition: color 0.6s;
 }
@@ -108,6 +103,11 @@ u {
   content: "";
   transition: width 0.5s;
 }
+
+.flex-end .link-underline:after {
+  right: 0;
+  left: auto;
+} 
 
 .link-underline:hover:after {
   width: 100%;
