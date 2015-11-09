@@ -43,24 +43,31 @@
                 <div class="links flex-row">
                     <ul>
                         <li>
-                            <a href="#" class="link-underline">Instagram</a>
+                            <a target="_blank" href="https://instagram.com/kllegault/" class="link-underline">Instagram</a>
                         </li>
                         <li>
-                            <a href="#" class="link-underline">Twitter</a>
+                            <a target="_blank" href="https://twitter.com/kelseylegault?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="link-underline">Twitter</a>
                         </li>
                     </ul>
                     <ul class="flex-end">
                         <li>
-                            <a href="#" class="link-underline">Email me</a>
+                            <a id="email-me" href="mailto:kelsey.legault@gmail.com" class="link-underline">Email me</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <script>
-            // $('a').hover( function() {
-            //     $(this).toggleClass('link-underline');
-            // });
+            $(function(){
+                var prev;    
+
+                $('#email-me').hover(function(){
+                    prev = $(this).text();
+                      $(this).text("kelsey.legault@gmail.com");
+                    }, function(){
+                      $(this).text(prev)
+                    });
+            })
         </script>
     </section>
 </body>
