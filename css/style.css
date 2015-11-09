@@ -67,40 +67,40 @@ a {
     color: #07198A;
     border-bottom: 1px solid rgba(0,0,0,0.5);
 }
- 
-.link__strike {
-    position: relative;
-    display: inline-block;
-    /*Add invisible bottom border to avoid displacement on hover*/
-    border-bottom: 1px rgba(0,0,0,0);
-}
-
-.link__strike:hover {
-    border-bottom: 1px rgba(0,0,0,1);
-}
-
-.link__strike::before {
-    content: '';
-    border-bottom: 1px solid;
-    border-color: rgba(0,0,0,0.5);
-    width: 100%;
-    position: absolute;
-    bottom: 45%;
-}
 
 u {
     color:  #07198A;
     text-decoration: none;
 }
 
-.hero-image {
-    flex-flow: center;
-    width: 65%;
+.link-underline {
+  position: relative;
 }
+
+.link-underline:hover {
+  color: #000;
+  transition: color 0.6s;
+}
+
+.link-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  content: "";
+  transition: width 0.3s;
+}
+
+.link-underline:hover:after {
+  width: 100%;
+}
+
 .links {
     justify-content: flex-start; 
 }
-
 
 .links li {
     list-style: none;
