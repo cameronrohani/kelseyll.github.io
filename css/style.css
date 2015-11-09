@@ -43,6 +43,7 @@ h1,h2,p {
 }
 
 h1 {
+    color: #000;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     letter-spacing: 0.6px;
@@ -183,6 +184,12 @@ a {
 }
 .flex-end:hover li:first-of-type {
   opacity: 0;
+}
+
+/*Intro Animations*/
+.hero-text {
+  opacity: 1;
+  transition: opacity .3s cubic-bezier(0.4, 0.21, 0.71, 0.46);
 }
 
 
