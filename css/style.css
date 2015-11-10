@@ -5,23 +5,43 @@ October 2015
 
 
 /* Base Styles ----------------------------------- */
-
+* {
+  box-sizing: border-box;
+}
 html {
     background-color: pink;
-}
+    background: linear-gradient(270deg, #fff0c6, #cadaff);
+    background-size: 400% 400%;
+    background: linear-gradient(283deg, #fff0c6, #cadaff);
+    background-size: 400% 400%;
+    background: linear-gradient(127deg, #fff0c6, #cadaff);
+    background-size: 400% 400%;
 
-*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
+    -webkit-animation: gradient-animation 9s ease infinite;
+    -moz-animation: gradient-animation 9s ease infinite;
+    animation: gradient-animation 9s ease infinite;
+}
+@-webkit-keyframes gradient-animation {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@-moz-keyframes gradient-animation {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@keyframes gradient-animation { 
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
 }
 
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
-    border-width: calc(100vw/70);
-    border-image: linear-gradient(to bottom, #fff0c6, #CADAFF) 1% stretch;
+    margin: calc(100vw/70);
+    background-color: blue;
 }
 
 section {
