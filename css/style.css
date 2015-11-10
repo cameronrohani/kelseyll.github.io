@@ -7,9 +7,9 @@ October 2015
 /* Base Styles ----------------------------------- */
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 html {
-    background-color: pink;
     background: linear-gradient(270deg, #fff0c6, #cadaff);
     background-size: 400% 400%;
     background: linear-gradient(283deg, #fff0c6, #cadaff);
@@ -41,7 +41,7 @@ body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
     margin: calc(100vw/70);
-    background-color: blue;
+    background-color: rgba(202,218,255, 0.3);
 }
 
 section {
@@ -205,6 +205,7 @@ a {
   padding:0;
   transition: opacity .4s cubic-bezier(0.5, 0.64, 0.52, 0.63);
 }
+
 .flex-end li:last-of-type {
   position: absolute;
   top: 0;
@@ -225,6 +226,9 @@ a {
   }
   .expand-column {  
     width: 100%;
+  }
+  .flex-end li:last-of-type {
+    display: none;
   }
 }
 
