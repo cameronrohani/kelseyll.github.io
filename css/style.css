@@ -77,6 +77,7 @@ a {
     list-style: none;
     display: inline-block;
     padding: 0 20px 0 0;
+    animation: fadeup-delay 1.5s;
 }
 
 .links ul {
@@ -187,12 +188,31 @@ a {
 }
 
 /*Intro Animations*/
-.hero-text {
-  opacity: 1;
-  transition: opacity .3s cubic-bezier(0.4, 0.21, 0.71, 0.46);
+.hero-text-animation {
+  animation: fadeup 1.5s;
 }
 
+.hero-link-animation {
+  animation: fadeup-delay 1.5s;
+}
 
+.hero-body-animation {
+  animation: fadein;
+  animation-delay: 2s;
+}
+
+@keyframes fadein {
+   0%     { opacity: 0; transform: translate(0px, 20px);}
+}
+
+@keyframes fadeup {
+    0%    { opacity: 0; transform: translate(0px, 20px);}
+}
+
+@keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; transform: translate(0px, 10px);}
+}
 
 
 
