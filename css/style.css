@@ -17,25 +17,9 @@ html {
   background-size: 400% 400%;
   background: linear-gradient(127deg, #fff0c6, #cadaff);
   background-size: 400% 400%;
-
   -webkit-animation: gradient-animation 9s ease infinite;
   -moz-animation: gradient-animation 9s ease infinite;
   animation: gradient-animation 9s ease infinite;
-}
-@-webkit-keyframes gradient-animation {
-    0%{background-position:0% 40%}
-    50%{background-position:100% 61%}
-    100%{background-position:0% 40%}
-}
-@-moz-keyframes gradient-animation {
-    0%{background-position:0% 40%}
-    50%{background-position:100% 61%}
-    100%{background-position:0% 40%}
-}
-@keyframes gradient-animation { 
-    0%{background-position:0% 40%}
-    50%{background-position:100% 61%}
-    100%{background-position:0% 40%}
 }
 body {
     font-size: 1em;
@@ -128,20 +112,23 @@ a {
 /* Grid ----------------------------------- */
 
 .flex-col {
-    display: -webkit-box;
-    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content:center;
     justify-content:center;
+    -webkit-flex-direction: column;
     flex-direction:column;
     padding: 50px 55px;
 }
 .flex-row {
-    display: -webkit-box;
-    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
 }
 .content-row {
@@ -149,18 +136,19 @@ a {
 }
 
 .row {
-    display: -webkit-box;
-    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
 .col-10, .col-11, .col-12 { 
     margin: auto 0;
-    display: -webkit-box;
-    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
     flex-flow: center;
     justify-content: space-around;
@@ -203,32 +191,14 @@ a {
 /*Intro Animations ----------------------------------- */
 
 .hero-text-animation {
+  -webkit-animation: fadeup 1.5s;
+  -moz-animation: fadeup 1.5s;
   animation: fadeup 1.5s;
 }
 .hero-link-animation {
+  -webkit-animation: fadeup-delay 1.5s;
+  -moz-animation: fadeup-delay 1.5s;
   animation: fadeup-delay 1.5s;
-}
-
-@-webkit-keyframes fadeup {
-    0%     { opacity: 0; transform: translate(0px, 20px);}
-}
-@-moz-keyframes fadeup {
-    0%     { opacity: 0; transform: translate(0px, 20px);}
-}
-@keyframes fadeup {
-    0%    { opacity: 0; transform: translate(0px, 20px);}
-}
-@-webkit-keyframes fadeup-delay {
-    0%    { opacity: 0; }
-    30%   { opacity: 0; transform: translate(0px, 10px);}
-}
-@-moz-keyframes fadeup-delay {
-    0%    { opacity: 0; }
-    30%   { opacity: 0; transform: translate(0px, 10px);}
-}
-@keyframes fadeup-delay {
-    0%    { opacity: 0; }
-    30%   { opacity: 0; transform: translate(0px, 10px);}
 }
 /* Media Queries ----------------------------------- */
 
