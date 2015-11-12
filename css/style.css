@@ -26,12 +26,12 @@ html {
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
-    margin: calc(100vw/70);
+    margin: calc(100vw/60);
     background-color: rgba(202,218,255, 0.3);
 }
 section {
     /*Minus border width from section height*/
-    height: calc(100vh - (100vw/35));
+    height: calc(100vh - (100vw/30));
     background-color: #fff;
     min-height: 300px;
 }
@@ -204,6 +204,12 @@ ul li:last-of-type {
 /* Media Queries ----------------------------------- */
 
 @media (max-width: 650px) {
+  body {
+    margin: calc(100vw/30);
+  }
+  section {
+    height: calc(100vh - (100vw/15));
+  }
   .flex-row {
     display: block;
   }
@@ -220,6 +226,6 @@ ul li:last-of-type {
     padding: 50px 35px;
   }
   .email-link-mobile {
-  margin: 30px 0 5px 0;
+  margin: 16px 0 5px 0;
   }
 }
