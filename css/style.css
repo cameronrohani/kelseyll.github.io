@@ -3,24 +3,24 @@ Kelsey Legault
 October 2015
  */
 
-
 /* Base Styles ----------------------------------- */
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
 html {
-    font-size: 1em;
-    background: linear-gradient(270deg, #fff0c6, #cadaff);
-    background-size: 400% 400%;
-    background: linear-gradient(283deg, #fff0c6, #cadaff);
-    background-size: 400% 400%;
-    background: linear-gradient(127deg, #fff0c6, #cadaff);
-    background-size: 400% 400%;
+  font-size: 1em;
+  background: linear-gradient(270deg, #fff0c6, #cadaff);
+  background-size: 400% 400%;
+  background: linear-gradient(283deg, #fff0c6, #cadaff);
+  background-size: 400% 400%;
+  background: linear-gradient(127deg, #fff0c6, #cadaff);
+  background-size: 400% 400%;
 
-    -webkit-animation: gradient-animation 9s ease infinite;
-    -moz-animation: gradient-animation 9s ease infinite;
-    animation: gradient-animation 9s ease infinite;
+  -webkit-animation: gradient-animation 9s ease infinite;
+  -moz-animation: gradient-animation 9s ease infinite;
+  animation: gradient-animation 9s ease infinite;
 }
 @-webkit-keyframes gradient-animation {
     0%{background-position:0% 40%}
@@ -37,26 +37,22 @@ html {
     50%{background-position:100% 61%}
     100%{background-position:0% 40%}
 }
-
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
     margin: calc(100vw/70);
     background-color: rgba(202,218,255, 0.3);
 }
-
 section {
     /*Minus border width from section height*/
     height: calc(100vh - (100vw/35));
     background-color: #fff;
     min-height: 300px;
 }
-
 .outer-container {
     background-color: #EEE;
     width: 100%;
 }
-
 /* Typography ----------------------------------- */
 
 h1,h2,p {
@@ -64,7 +60,6 @@ h1,h2,p {
     color: #000;
     font-size: 1em;
 }
-
 h1 {
     font-size: 2em;
     color: #000;
@@ -72,29 +67,24 @@ h1 {
     letter-spacing: 0.6px;
     font-weight: 400;
 }
-
 h2 {
     
     font-weight: 400;
     letter-spacing: 0.8px;
 }
-
 p {
     letter-spacing: 0.9px;
     line-height: 1.6;
 }
-
 a { 
     line-height: 1.8;
     text-decoration: none;
     color: #000;
     border-bottom: 1px solid rgba(0,0,0,1);
 }
-
 .links {
     justify-content: flex-start; 
 }
-
 .links li {
     list-style: none;
     display: inline-block;
@@ -103,21 +93,17 @@ a {
     -moz-animation: fadeup-delay 1.5s;
     animation: fadeup-delay 1.5s;
 }
-
 .links ul {
     padding: 0;
 }
-
 .link-underline, .link-underline-email {
   position: relative;
   transition: color 0.6s;
 }
-
 .link-underline:hover {
   color: #eac254;
   transition: color 0.6s;
 }
-
 .link-underline:after {
   display: block;
   position: absolute;
@@ -129,22 +115,18 @@ a {
   content: "";
   transition: width 0.5s;
 }
-
 .link-underline:hover:after {
   width: 100%;
 }
-
 .flex-end .link-underline:after {
   right: 0;
   left: auto;
 }
-
 .flex-end .link-underline {
   opacity: 1;
 }
-
-
 /* Grid ----------------------------------- */
+
 .flex-col {
     display: -webkit-box;
     display: -moz-box;
@@ -154,7 +136,6 @@ a {
     flex-direction:column;
     padding: 50px 55px;
 }
-
 .flex-row {
     display: -webkit-box;
     display: -moz-box;
@@ -163,7 +144,6 @@ a {
     width: 100%;
     justify-content: space-between;
 }
-
 .content-row {
     height: 100%
 }
@@ -174,7 +154,6 @@ a {
     display: -ms-flexbox;
     display: flex;
 }
-
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
 .col-10, .col-11, .col-12 { 
     margin: auto 0;
@@ -187,7 +166,6 @@ a {
     justify-content: space-around;
     align-items:flex-start;
 }
-
 .col-1  {   width: 8.333333333%;    }
 .col-2  {   width: 16.666666666%;   }
 .col-3  {   width: 25.000000000%;   }
@@ -209,7 +187,6 @@ a {
   padding:0;
   transition: opacity .4s cubic-bezier(0.5, 0.64, 0.52, 0.63);
 }
-
 .flex-end li:last-of-type {
   position: absolute;
   top: 0;
@@ -223,12 +200,11 @@ a {
 .flex-end:hover li:first-of-type {
   opacity: 0;
 }
+/*Intro Animations ----------------------------------- */
 
-/*Intro Animations*/
 .hero-text-animation {
   animation: fadeup 1.5s;
 }
-
 .hero-link-animation {
   animation: fadeup-delay 1.5s;
 }
@@ -242,7 +218,6 @@ a {
 @keyframes fadeup {
     0%    { opacity: 0; transform: translate(0px, 20px);}
 }
-
 @-webkit-keyframes fadeup-delay {
     0%    { opacity: 0; }
     30%   { opacity: 0; transform: translate(0px, 10px);}
@@ -255,6 +230,7 @@ a {
     0%    { opacity: 0; }
     30%   { opacity: 0; transform: translate(0px, 10px);}
 }
+/* Media Queries ----------------------------------- */
 
 @media (max-width: 650px) {
   h1 {
