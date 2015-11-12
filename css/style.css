@@ -6,6 +6,8 @@ October 2015
 /* Base Styles ----------------------------------- */
 
 * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
 }
@@ -116,9 +118,8 @@ a {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content:center;
-    justify-content:center;
-    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
     flex-direction:column;
     padding: 50px 55px;
 }
@@ -128,7 +129,6 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-justify-content: space-between;
     justify-content: space-between;
 }
 .content-row {
@@ -148,11 +148,10 @@ a {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
     flex-direction: column;
     flex-flow: center;
     justify-content: space-around;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 .col-1  {   width: 8.333333333%;    }
 .col-2  {   width: 16.666666666%;   }
