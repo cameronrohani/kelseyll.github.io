@@ -169,24 +169,7 @@ a {
 .flex-end {
   position: relative;
 }
-.flex-end li {
-  position: relative;
-  padding:0;
-  transition: opacity .4s cubic-bezier(0.5, 0.64, 0.52, 0.63);
-}
-.flex-end li:last-of-type {
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0;
-}
-.flex-end:hover li:last-of-type {
-  opacity: 1;
-  width: auto;
-}
-.flex-end:hover li:first-of-type {
-  opacity: 0;
-}
+
 /*Intro Animations ----------------------------------- */
 
 .hero-text-animation {
@@ -207,12 +190,6 @@ a {
   }
   .expand-column {  
     width: 100%;
-  }
-  .flex-end li:last-of-type {
-    display: none;
-  }
-  .flex-end:hover li:first-of-type {
-    opacity: 1;
   }
   .flex-col {
     padding: 50px 35px;
