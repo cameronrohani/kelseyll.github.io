@@ -13,10 +13,6 @@ October 2015
 }
 html {
   font-size: 1em;
-  background: linear-gradient(270deg, #fff0c6, #cadaff);
-  background-size: 400% 400%;
-  background: linear-gradient(283deg, #fff0c6, #cadaff);
-  background-size: 400% 400%;
   background: linear-gradient(127deg, #fff0c6, #cadaff);
   background-size: 400% 400%;
   -webkit-animation: gradient-animation 9s ease infinite;
