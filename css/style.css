@@ -22,12 +22,12 @@ html {
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
-    margin: calc(100vw/60);
+    margin: calc(100vw/50);
     background-color: rgba(202,218,255, 0.3);
 }
 section {
     /*Minus border width from section height*/
-    height: calc(100vh - (100vw/30));
+    height: calc(100vh - (100vw/25));
     background-color: #fff;
     min-height: 300px;
 }
