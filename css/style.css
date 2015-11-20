@@ -213,13 +213,13 @@ ul li:last-of-type {
     padding-right: 10px;
   }
   h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
   .expand-column {  
     width: 100%;
   }
   .flex-col {
-    padding: 30px 35px;
+    padding: 20px 25px;
   }
   .email-link-mobile {
   margin: 16px 0 5px 0;
