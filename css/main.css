@@ -12,28 +12,37 @@ October 2015
   margin: 0;
 }
 html {
+  min-width: 230px;
   font-size: 1em;
-  background: linear-gradient(127deg, #fff0c6, #cadaff);
+/*  background: linear-gradient(127deg, #fff0c6, #cadaff);
   background-size: 400% 400%;
   -webkit-animation: gradient-animation 9s ease infinite;
   -moz-animation: gradient-animation 9s ease infinite;
-  animation: gradient-animation 9s ease infinite;
+  animation: gradient-animation 9s ease infinite;*/
 }
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
-    margin: calc(100vw/50);
-    background-color: rgba(202,218,255, 0.3);
+    /*margin: calc(100vw/50);*/
+    /*background-color: rgba(202,218,255, 0.3);*/
 }
 section {
     /*Minus border width from section height*/
-    height: calc(100vh - (100vw/25));
+    height: 100vh;
     background-color: #fff;
     min-height: 300px;
 }
 .outer-container {
     background-color: #EEE;
     width: 100%;
+}
+header .links{
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end; 
+  justify-content: flex-end;
+}
+footer {
+  padding: 60px 80px;
 }
 /* Typography ----------------------------------- */
 
@@ -72,7 +81,7 @@ a {
 .links li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px 0 0;
+    padding: 0 40px 0 0;
     -webkit-animation: fadeup-delay 1.5s;
     -moz-animation: fadeup-delay 1.5s;
     animation: fadeup-delay 1.5s;
@@ -127,7 +136,7 @@ ul li:last-of-type {
     -webkit-flex-direction:column;
     -moz-flex-direction:column;
     flex-direction:column;
-    padding: 50px 55px;
+    padding: 60px 80px;
 }
 .flex-row {
     display: -webkit-flex;
@@ -141,6 +150,13 @@ ul li:last-of-type {
 }
 .content-row {
     height: 100%
+}
+.hero-content {
+  align-self: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  text-align: center;
+  padding: 0 250px;
 }
 .row {
     display: -webkit-flex;
@@ -197,14 +213,16 @@ ul li:last-of-type {
   -moz-animation: fadeup-delay 1.5s;
   animation: fadeup-delay 1.5s;
 }
-/* Media Queries ----------------------------------- */
 
-@media (max-width: 650px) {
-  body {
-    margin: calc(100vw/30);
+/* Media Queries ----------------------------------- */
+@media (max-width: 1200px) {
+  .hero-content {
+    padding: 0 100px;
   }
-  section {
-    height: calc(100vh - (100vw/15));
+}
+@media (max-width: 650px) {
+  footer, body {
+    margin: calc(100vw/30);
   }
   .flex-row {
     display: block;
@@ -214,6 +232,16 @@ ul li:last-of-type {
   }
   h1 {
     font-size: 1.4em;
+  }
+  header .links {
+    text-align: right;
+  }
+  footer {
+    padding: 0;
+  }
+  .hero-content {
+    padding: 0 ;
+    text-align: left;
   }
   .expand-column {  
     width: 100%;
