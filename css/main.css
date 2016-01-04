@@ -127,11 +127,17 @@ ul li:last-of-type {
     position: relative;
 }
 /* Work ----------------------------------- */
-.image {
+.images {
     margin-bottom: 70px;
+    position: relative;
 }
-.image img {
+.images img {
     width: 100%;
+}
+.images img:not(:first-of-type) {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .work-item {
     max-width: 950px;
@@ -144,11 +150,14 @@ ul li:last-of-type {
     display: inline-block;
 }
 .to-the-left {
-    left: -50px;
+    margin-left: -50px;
     position: relative;
 }
 .push-right {
     padding-left: 200px;
+}
+.beyonce {
+    margin-left: 9%
 }
 /* Grid ----------------------------------- */
 .flex {
