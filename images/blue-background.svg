@@ -5,13 +5,19 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#8DFFFE" offset="0%"></stop>
-            <stop stop-color="#7EA5FF" offset="100%"></stop>
+            <stop stop-color="#CEFFFF" offset="0%"></stop>
+            <stop stop-color="#DCF6FF" offset="55.6185712%"></stop>
+            <stop stop-color="#DCF6FF" offset="55.6185712%"></stop>
+            <stop stop-color="#E7EEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#EAFFF6" offset="0%"></stop>
+            <stop stop-color="#EDFAFF" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Artboard-7" sketch:type="MSArtboardGroup" fill="url(#linearGradient-1)" fill-opacity="0.300000012">
-            <rect id="Rectangle-79" sketch:type="MSShapeGroup" x="45" y="62" width="930" height="430"></rect>
+        <g id="Artboard-7" sketch:type="MSArtboardGroup" stroke="url(#linearGradient-2)" stroke-width="24" fill="url(#linearGradient-1)">
+            <rect id="Rectangle-79" sketch:type="MSShapeGroup" x="69" y="60" width="883" height="430"></rect>
         </g>
     </g>
 </svg>
