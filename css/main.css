@@ -42,7 +42,7 @@ header .links{
     justify-content: flex-end;
 }
 footer, header {
-    padding: 40px 50px;
+    padding: 70px 80px;
 }
 /* Typography ----------------------------------- */
 
@@ -234,6 +234,11 @@ ul li:last-of-type {
 }
 
 /* Media Queries ----------------------------------- */
+@media (max-width: 1200px) {
+    .hero-content {
+        padding: 0 100px;
+    }
+}
 @media (max-width: 1000px) {
     body {
         margin-left: 20px;
@@ -249,10 +254,9 @@ ul li:last-of-type {
     .push-right {
         padding-left: 0;
     }
-}
-@media (max-width: 1200px) {
-    .hero-content {
-        padding: 0 100px;
+    footer, header {
+        padding-left: 0;
+        padding-right: 40px;
     }
 }
 @media (max-width: 650px) {
@@ -265,8 +269,14 @@ ul li:last-of-type {
     ul li:not(:last-of-type) {
         padding-right: 10px;
     }
+    .hero-content {
+        height: 300px;
+    }
     h1 {
         font-size: 1.4em;
+    }
+    header {
+        padding-right: 0px;
     }
     header .links {
         text-align: right;
@@ -280,4 +290,16 @@ ul li:last-of-type {
     .email-link-mobile {
         margin: 16px 0 5px 0;
     }
-}
+    header nav {
+        display: none;
+    }
+    header.flex__spread {
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+    }
+    footer .flex__spread {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+    }
