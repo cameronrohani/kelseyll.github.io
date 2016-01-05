@@ -44,6 +44,9 @@ header .links{
 footer, header {
     padding: 70px 80px;
 }
+header {
+    padding-bottom: 0;
+}
 /* Typography ----------------------------------- */
 
 h1,h2,p {
@@ -118,7 +121,7 @@ ul li:last-of-type {
 .link-underline:hover:after {
     width: 100%;
 }
-.flex-end .link-underline:after {
+.flex-end .link-underline:after, header .link-underline:after {
     right: 0;
     left: auto;
 }
@@ -303,3 +306,7 @@ ul li:last-of-type {
         -webkit-flex-direction: column;
         -moz-flex-direction: column;
     }
+    .flex-end .link-underline:after {
+    right: auto;
+    left: 0;
+}
