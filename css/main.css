@@ -231,6 +231,11 @@ ul li:last-of-type {
     animation: fadeup-delay 1.5s;
 }
 
+.text {
+    max-width: 740px;
+    margin: auto;
+}
+
 /* Media Queries ----------------------------------- */
 @media (max-width: 1200px) {
     .hero-content {
