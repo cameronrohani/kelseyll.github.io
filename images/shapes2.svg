@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1020px" height="550px" viewBox="0 0 1020 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFD6BB" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M111.076372,281.071337 C224.670017,170.080448 114.894645,116.912975 137.804289,49.0253394 C187.441848,-60.8879729 455.781866,46.08896 603.704941,61.9563181 C719.390933,74.3656805 806.276783,-3.77616091 886.709721,79.1976187 C967.142658,176.179954 888.242483,256.801285 878.765727,341.049935 C870.859209,411.339121 896.639713,488.678601 819.185773,514.540557 C741.731834,540.402513 713.927846,430.489198 523.272024,453.11841 C332.616203,475.747621 238.079745,555.594349 172.214518,513.568656 C95.75357,462.922326 41.8371613,369.28263 111.076372,281.071337 Z"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-7" sketch:type="MSArtboardGroup">
+            <g id="flow" sketch:type="MSLayerGroup" transform="translate(-10.000000, -26.000000)">
+                <g id="Rectangle-79-Copy-2">
+                    <use stroke="none" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <use stroke="url(#linearGradient-1)" stroke-width="11" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
