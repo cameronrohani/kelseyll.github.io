@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1020px" height="550px" viewBox="0 0 1020 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DF5151" offset="0%"></stop>
+            <stop stop-color="#482EE3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A3448B" offset="0%"></stop>
+            <stop stop-color="#C94C66" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-7" sketch:type="MSArtboardGroup">
+            <g id="flow" sketch:type="MSLayerGroup" transform="translate(0.000000, 2.000000)"></g>
+            <rect id="Rectangle-237" fill="#6E37BF" sketch:type="MSShapeGroup" transform="translate(233.979473, 259.513738) rotate(-330.000000) translate(-233.979473, -259.513738) " x="161.257042" y="81.5137378" width="145.444864" height="356"></rect>
+            <polygon id="Triangle-11" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" transform="translate(691.097489, 170.097489) rotate(-60.000000) translate(-691.097489, -170.097489) " points="691.097489 19.097489 842.097489 321.097489 540.097489 321.097489 "></polygon>
+            <circle id="Oval-28" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup" cx="506.5" cy="358.5" r="140.5"></circle>
+        </g>
+    </g>
+</svg>
