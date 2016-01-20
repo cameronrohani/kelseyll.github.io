@@ -39,6 +39,9 @@ footer, header {
 header {
     padding-bottom: 0;
 }
+footer div {
+    width: 100%;
+}
 /* Typography ----------------------------------- */
 
 h1,h2,p {
@@ -77,7 +80,7 @@ p.pink-links a {
     transition: background-color 0.5s;
 }
 p a {
-    background-color: #D2FFF8;
+    background-color: #affff3;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
@@ -86,7 +89,6 @@ p a:hover, p a.pink:hover {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
-
 span {
     padding: 30px 0 20px 0;
     font-family: 'Playfair Display', serif;
@@ -129,16 +131,18 @@ ul li:last-of-type {
     content: "";
     transition: width 0.5s;
 }
+.zmdi-chevron-down {
+    padding-top: 5rem;
+    -webkit-animation: fadeup-delay 1.5s;
+    -moz-animation: fadeup-delay 1.5s;
+    animation: fadeup-delay 1.5s;
+}
 .link-underline:hover:after {
     width: 100%;
 }
 .flex-end .link-underline:after, header .link-underline:after {
     right: 0;
     left: auto;
-}
-.flex-end {
-    right: 0;
-    position: relative;
 }
 /* Work ----------------------------------- */
 .images {
@@ -220,19 +224,10 @@ ul li:last-of-type {
 .hero-content h1 {
     max-width: 780px;
 }
-.col-1  {   width: 8.333333333%;    }
-.col-2  {   width: 16.666666666%;   }
-.col-3  {   width: 25.000000000%;   }
-.col-4  {   width: 33.333333333%;   }
-.col-5  {   width: 41.666666666%;   }
-.col-6  {   width: 50.000000000%;   }
-.col-7  {   width: 58.333333333%;   }
-.col-8  {   width: 66.666666666%;   }
-.col-9  {   width: 75.000000000%;   }
-.col-10 {   width: 83.333333333%;   }
-.col-11 {   width: 88.666666666%;   }
-.col-12 {   width: 100.000000000%;  }
-
+.flex-end {
+    right: 0;
+    position: relative;
+}
 /*Intro Animations ----------------------------------- */
 
 .hero-text-animation {
