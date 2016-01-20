@@ -75,7 +75,10 @@ a {
     border-bottom: 1px solid rgba(0,0,0,1);
 }
 p.pink-links a {
-    background-color: #FFD6D6;
+    background: #ffecbc; /* Old browsers */
+    background: -webkit-linear-gradient(top,  #ffecbc 16%,#efd581 100%);
+    background: linear-gradient(to bottom,  #ffecbc 16%,#efd581 100%);
+
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
@@ -302,6 +305,9 @@ ul li:last-of-type {
     }
     .email-link-mobile {
         margin: 16px 0 5px 0;
+    }
+    i.zmdi-chevron-down {
+        display: none;
     }
     header nav {
         display: none;
