@@ -72,23 +72,13 @@ a {
     line-height: 1.8;
     text-decoration: none;
     color: #000;
-    border-bottom: 1px solid rgba(0,0,0,1);
-}
-p.pink-links a {
-    background: #ffecbc; /* Old browsers */
-    background: -webkit-linear-gradient(top,  #ffecbc 16%,#efd581 100%);
-    background: linear-gradient(to bottom,  #ffecbc 16%,#efd581 100%);
-
-    -webkit-transition: background-color 0.3s;
-    transition: background-color 0.5s;
 }
 p a {
-    background-color: #affff3;
+    border-bottom: 1px solid #000;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
 p a:hover, p a.pink:hover {
-    background-color: #FFF;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
