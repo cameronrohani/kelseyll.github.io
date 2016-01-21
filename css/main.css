@@ -43,7 +43,6 @@ footer div {
     width: 100%;
 }
 /* Typography ----------------------------------- */
-
 h1,h2,p {
     text-rendering: optimizeLegibility;
     color: #000;
@@ -124,8 +123,9 @@ ul li:last-of-type {
     content: "";
     transition: width 0.5s;
 }
-.zmdi-chevron-down {
-    padding-top: 5rem;
+i {
+    padding-bottom: 3rem;
+    margin: auto;
     -webkit-animation: fadeup-delay 1.5s;
     -moz-animation: fadeup-delay 1.5s;
     animation: fadeup-delay 1.5s;
@@ -162,6 +162,20 @@ ul li:last-of-type {
 .to-the-left {
     margin-left: -50px;
     position: relative;
+}
+.list {
+    max-width: 740px;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+.list-item div {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.list-item p {
+    display: inline-block;
+    padding: 10px 0;
 }
 .push-right {
     padding-left: 95px;
@@ -212,9 +226,10 @@ ul li:last-of-type {
 
 .hero-content {
     text-align: center;
-    height: calc(100vh - 160px)
+    height: calc(100vh - 260px)
 }
 .hero-content h1 {
+    padding-top: 10rem;
     max-width: 780px;
 }
 .flex-end {
@@ -237,6 +252,13 @@ ul li:last-of-type {
 .text {
     max-width: 740px;
     margin: auto;
+}
+
+/*Navigation Animations ----------------------------------- */
+#work {
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
 
 /* Media Queries ----------------------------------- */

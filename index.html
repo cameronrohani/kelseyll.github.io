@@ -30,25 +30,28 @@
   <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
+  <!-- Javascript -->  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
 </head>
 <body>
   <header class="flex flex__spread">
-    <div>    
+    <div>
       <p class="hero-link-animation">Kelsey Legault</p>
     </div>
     <nav class="links">
       <ul>
-        <li><a class="link-underline" href="">work</a></li>
-        <li><a class="link-underline" href="">contact</a></li>
+        <li><a class="link-underline" href="#work">work</a></li>
+        <li><a class="link-underline" href="#contact">contact</a></li>
       </ul>
     </nav>
   </header>
   <div class="flex hero-content flex__vertical-center flex__horizontal-center flex-col">
     <h1 class="hero-text-animation">I am a designer studying computer science and visual arts in Victoria, BC.</h1>
-    <i class="zmdi zmdi-hc-lg zmdi-chevron-down"></i>
   </div>
+    <i class="flex flex__horizontal-center flex__horizontal-center zmdi zmdi-hc-lg zmdi-chevron-down"></i>
   <!-- Flow -->
-  <div class="work-item">
+  <div id="work" class="work-item">
     <div class="images">
       <img src="images/shapes.svg">
       <img class="flow-graph" src="images/flow-ui-3.svg">
@@ -106,7 +109,46 @@
       </p>
     </div>
   </div>
-  <footer>
+  <div class="list">
+    <div class="flex flex-col flex__horizontal-center flex-col">
+      <div class="list-item">
+        <span>Jan 2016</span>
+        <div class="flex-row flex__spread links flex">
+          <p>I helped design the Sad Boy Club Landing Page</p>
+          <p>> &nbsp; website</p>
+        </div>
+      </div>
+      <div class="list-item">
+        <span>Jan 2016</span>
+        <div class="flex-row flex__spread links flex">
+          <p>I designed a minimal portfolio page</p>
+          <p>> &nbsp; website</p>
+        </div>
+      </div>
+      <div class="list-item">
+        <span>November 2015</span>
+        <div class="flex-row flex__spread links flex">
+          <p>I created a projection in a gallery space</p>
+          <p>> &nbsp; website</p>
+        </div>
+      </div>
+      <div class="list-item">
+        <span>Sept 2015</span>
+        <div class="flex-row flex__spread links flex">
+          <p>I helped design the UVic WebDev website</p>
+          <p>> &nbsp; website</p>
+        </div>
+      </div>
+      <div class="list-item">
+        <span>May 2015</span>
+        <div class="flex-row flex__spread links flex">
+          <p>I redesigned the UVic Bookstore website</p>
+          <p>> &nbsp; website</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="contact">
     <div class="flex">
         <div class="links flex flex__spread">
           <ul>
@@ -128,5 +170,13 @@
       </div>
     </div>
   </footer>
+  <script type="text/javascript">
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 1000);
+    return false;
+});
+  </script>
 </body>
 </html>
