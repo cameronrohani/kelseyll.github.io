@@ -19,11 +19,6 @@ body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
 }
-section {
-    height: 100vh;
-    background-color: #fff;
-    min-height: 300px;
-}
 .outer-container {
     background-color: #EEE;
     width: 100%;
@@ -138,6 +133,9 @@ i {
     right: 0;
     left: auto;
 }
+.hero-content i {
+    padding-top: 7rem;
+}
 /* Work ----------------------------------- */
 .images {
     position: relative;
@@ -218,10 +216,10 @@ i {
 
 .hero-content {
     text-align: center;
-    height: calc(100vh - 260px)
+    height: calc(100vh - 160px)
 }
 .hero-content h1 {
-    padding-top: 10rem;
+    padding-top: 6rem;
     max-width: 780px;
 }
 .flex-end {
@@ -240,12 +238,10 @@ i {
     -moz-animation: fadeup-delay 1.5s;
     animation: fadeup-delay 1.5s;
 }
-
 .text {
     max-width: 740px;
     margin: auto;
 }
-
 /*Navigation Animations ----------------------------------- */
 #work {
     -webkit-animation: fadeup 1.5s;
@@ -275,8 +271,7 @@ i {
         padding-left: 0;
     }
     footer, header {
-        padding-left: 0;
-        padding-right: 40px;
+        padding: 30px 30px;
     }
 }
 @media (max-width: 650px) {
@@ -292,11 +287,14 @@ i {
     .hero-content {
         height: 300px;
     }
-    h1 {
+    .hero-content h1 {
+        max-width: 400px;
+        padding-top: 0rem;
         font-size: 1.4em;
     }
     header {
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
     header .links {
         text-align: right;
