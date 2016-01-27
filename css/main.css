@@ -163,7 +163,8 @@ i {
     position: relative;
 }
 .list {
-    max-width: 740px;
+    padding: 0 30px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 100px;
 
@@ -255,11 +256,6 @@ i {
         padding: 0 100px;
     }
 }
-@media (max-width: 1000px) {
-    body {
-        margin-left: 20px;
-    }
-}
 @media (max-width: 950px) {
     .flex.text {
         flex-direction: column;
@@ -299,6 +295,9 @@ i {
     header .links {
         text-align: right;
     }
+    .work-item {
+        padding-bottom: 100px;
+    }
     .hero-content {
         padding: 0 ;
     }
@@ -327,4 +326,9 @@ i {
     .flex-end .link-underline:after {
     right: auto;
     left: 0;
+}
+@media (max-width: 550px) {
+    .work-item {
+        padding-bottom: 75px;
+    }
 }
