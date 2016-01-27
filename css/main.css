@@ -79,7 +79,7 @@ p a:hover, p a.pink:hover {
 span {
     padding: 30px 0 10px 0;
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 .links {
     -webkit-justify-content: flex-start;
