@@ -3,7 +3,7 @@ Kelsey Legault
 October 2015
 */
 
-/* Base Styles ----------------------------------- */
+/* Block Styles ----------------------------------- */
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -27,7 +27,8 @@ header .links{
     -moz-justify-content: flex-end;
     justify-content: flex-end;
 }
-footer, header {
+footer,
+header {
     padding: 70px 80px;
 }
 header {
@@ -37,7 +38,9 @@ footer div {
     width: 100%;
 }
 /* Typography ----------------------------------- */
-h1,h2,p {
+h1,
+h2,
+p {
     text-rendering: optimizeLegibility;
     color: #000;
     font-size: 1em;
@@ -71,7 +74,8 @@ p a {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
-p a:hover, p a.pink:hover {
+p a:hover,
+p a.pink:hover {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.5s;
 }
@@ -99,7 +103,8 @@ span {
 ul li:last-of-type {
     padding-right: 0;
 }
-.link-underline, .link-underline-email {
+.link-underline,
+.link-underline-email {
     position: relative;
     transition: color 0.6s;
 }
@@ -136,24 +141,54 @@ i {
 .link-underline:hover:after {
     width: 100%;
 }
-.flex-end .link-underline:after, header .link-underline:after {
+.flex-end .link-underline:after,
+header .link-underline:after {
     right: 0;
     left: auto;
 }
 .hero-content i {
     padding-top: 7rem;
 }
-/* Work ----------------------------------- */
+/* Work Items ----------------------------------- */
 .images {
-    position: relative;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 80px;
+}
+.images img:not(:first-of-type) {
+  position: absolute;
+  top: 0;
+  z-index: 10;
 }
 .images img {
     width: 100%;
 }
-.images img:not(:first-of-type) {
+.slider img.showing {
+	opacity: 1;
+	z-index: 1;
+	/*transform: translate3d(0, 0, 0);*/
+	transition: all 0s;
+}
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider img {
     position: absolute;
-    top: 0;
+    width: 100%;
     left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: transform 1s ease-in-out, opacity 0.3s ease-in-out 0.3s;
+}
+#work {
+  margin-top: 0;
+  padding-top: 50px;
 }
 .work-item {
     padding: 0 30px;
@@ -161,14 +196,8 @@ i {
     margin:auto;
     padding-bottom: 150px;
 }
-.work-item p {
-}
 .work-item span {
     display: inline-block;
-}
-.to-the-left {
-    margin-left: -50px;
-    position: relative;
 }
 .list {
     padding: 0 30px;
@@ -181,7 +210,8 @@ i {
     border-bottom: 1px solid #000;
     margin-bottom: 30px;
 }
-.list-item p, .list-item a {
+.list-item p,
+.list-item a {
     display: inline-block;
     padding: 10px 0;
 }
@@ -251,13 +281,6 @@ i {
     max-width: 800px;
     margin: auto;
 }
-/*Navigation Animations ----------------------------------- */
-#work {
-    -webkit-animation: fadeup 1.5s;
-    -moz-animation: fadeup 1.5s;
-    animation: fadeup 1.5s;
-}
-
 /* Media Queries ----------------------------------- */
 @media (max-width: 1200px) {
     .hero-content {
