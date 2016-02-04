@@ -17,9 +17,9 @@ html {
 body {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
+    background-color: #FAFAFA;
 }
 .outer-container {
-    background-color: #EEE;
     width: 100%;
 }
 header .links{
