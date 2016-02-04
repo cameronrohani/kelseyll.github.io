@@ -3,7 +3,7 @@ Kelsey Legault
 October 2015
  */
 
-/* Animations ----------------------------------- */ 
+/* Animations ----------------------------------- */
 
 /*Fadeup, for main content (h1)*/
 @-webkit-keyframes fadeup {
@@ -30,6 +30,10 @@ October 2015
     30%   { opacity: 0; transform: translate(0px, 10px);}
 }
 
+.arrow-fade {
+  opacity: 0;
+}
+
 /*Gradient Animation (thanks http://www.gradient-animator.com/)*/
 @-webkit-keyframes gradient-animation {
     0%{background-position:0% 40%}
@@ -41,7 +45,7 @@ October 2015
     50%{background-position:100% 61%}
     100%{background-position:0% 40%}
 }
-@keyframes gradient-animation { 
+@keyframes gradient-animation {
     0%{background-position:0% 40%}
     50%{background-position:100% 61%}
     100%{background-position:0% 40%}
