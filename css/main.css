@@ -133,11 +133,11 @@ i {
 .arrow {
   transition: all .3s ease-in-out;
 }
-/*.arrow-fade {
-  -webkit-animation: arrow-fade 0.5s;
-  -moz-animation: arrow-fade 0.5s;
-  animation: arrow-fade 0.5s;
-}*/
+.neon {
+  -webkit-animation: neon1 1.5s infinite;
+  -moz-animation: neon1 1.5s infinite;
+  animation: neon1 1.5s infinite;
+}
 .link-underline:hover:after {
     width: 100%;
 }

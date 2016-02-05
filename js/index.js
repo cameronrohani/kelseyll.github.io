@@ -17,4 +17,5 @@ $(function(){
       i = (++i % $slider.length);
     }
 
+
 });
