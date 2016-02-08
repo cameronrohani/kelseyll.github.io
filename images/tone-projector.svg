@@ -11,24 +11,24 @@
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="work-item-images" sketch:type="MSArtboardGroup">
-            <g id="touch-tone" sketch:type="MSLayerGroup" transform="translate(0.000000, 26.153190)">
-                <g id="projector" transform="translate(147.937063, -0.000000)" sketch:type="MSShapeGroup">
-                    <g id="projector-string" transform="translate(281.959093, 358.268293)" stroke-width="0.8044695">
-                        <path d="M5.57966543,0.372420263 L5.57966543,27.2158768" id="Line" stroke="#666666" stroke-linecap="square"></path>
-                        <ellipse id="Oval-9" stroke="#4A4A4A" cx="5.20768774" cy="33.5178236" rx="5.20768774" ry="5.21388368"></ellipse>
+            <g id="touch-tone" sketch:type="MSLayerGroup" transform="translate(0.000000, 37.153190)">
+                <g id="projector" transform="translate(163.634761, 3.465729)" sketch:type="MSShapeGroup">
+                    <g id="projector-string" transform="translate(267.093060, 339.378928)" stroke-width="0.8044695">
+                        <path d="M5.28548272,0.352784748 L5.28548272,25.7809448" id="Line" stroke="#666666" stroke-linecap="square"></path>
+                        <ellipse id="Oval-9" stroke="#4A4A4A" cx="4.93311721" cy="31.7506273" rx="4.93311721" ry="4.93898647"></ellipse>
                     </g>
-                    <rect id="projector-screen" stroke="#9B9B9B" stroke-width="0.8044695" fill="#FFF4E2" x="33.950279" y="35.7523452" width="500.498342" height="326.24015" rx="1.608939"></rect>
-                    <path d="M0,17.8761726 C0,17.8761726 -2.53733807e-13,29.0487805 15.6230632,35.7523452 C30.502171,35.7523452 418.846885,36.4971857 552.759371,35.7523452 C553.502811,36.4971857 568.381919,29.793621 568.381919,17.1313321" id="Path-80" fill="url(#linearGradient-1)"></path>
-                    <path d="M0,1.87617261 C0,1.87617261 -2.53733807e-13,13.0487805 15.6230632,19.7523452 C30.502171,19.7523452 418.846885,20.4971857 552.759371,19.7523452 C553.502811,20.4971857 568.381919,13.793621 568.381919,1.13133208" id="Path-80" fill="#FFFFFF" transform="translate(284.190959, 10.607359) scale(1, -1) translate(-284.190959, -10.607359) "></path>
+                    <rect id="projector-screen" stroke="#9B9B9B" stroke-width="0.8044695" fill="#FFF4E2" x="32.1602819" y="33.8673358" width="474.110029" height="309.039439" rx="1.608939"></rect>
+                    <path d="M0,16.9336679 C0,16.9336679 -2.40355927e-13,27.5172103 14.7993516,33.8673358 C28.8939722,33.8673358 396.76357,34.5729053 523.615643,33.8673358 C524.319886,34.5729053 538.414506,28.2227798 538.414506,16.2280984" id="Path-80" fill="url(#linearGradient-1)"></path>
+                    <path d="M0,1.77725314 C0,1.77725314 -2.40355927e-13,12.3607956 14.7993516,18.710921 C28.8939722,18.710921 396.76357,19.4164905 523.615643,18.710921 C524.319886,19.4164905 538.414506,13.0663651 538.414506,1.07168364" id="Path-80" fill="#FFFFFF" transform="translate(269.207253, 10.048096) scale(1, -1) translate(-269.207253, -10.048096) "></path>
                     <g id="projector-top" stroke="#9B9B9B" stroke-width="0.8044695" stroke-linecap="square">
-                        <path d="M0.371977696,17.5037523 L568.009941,17.5037523" id="Line"></path>
-                        <path d="M15.2510855,36.1247655 L553.130833,36.1247655" id="Line"></path>
-                        <path d="M15.2510855,1.11726079 L553.130833,1.11726079" id="Line"></path>
-                        <path d="M14.8962642,1.17973004 C14.8962642,1.17973004 -5.23250984e-07,5.95872373 -5.23225893e-07,17.8761721 C-5.23200802e-07,29.7936205 15.2510855,36.1247655 15.2510855,36.1247655" id="Line"></path>
-                        <path d="M568.399075,1.17973004 C568.399075,1.17973004 553.50281,5.95872373 553.50281,17.8761721 C553.50281,29.7936205 568.753896,36.1247655 568.753896,36.1247655" id="Line" transform="translate(561.128353, 18.652248) scale(-1, 1) translate(-561.128353, -18.652248) "></path>
+                        <path d="M0.352365515,16.5808832 L538.062141,16.5808832" id="Line"></path>
+                        <path d="M14.4469861,34.2201205 L523.96752,34.2201205" id="Line"></path>
+                        <path d="M14.4469861,1.05835424 L523.96752,1.05835424" id="Line"></path>
+                        <path d="M14.1108724,1.11752987 C14.1108724,1.11752987 -4.95663058e-07,5.64455552 -4.9563929e-07,16.9336675 C-4.95615523e-07,28.2227794 14.4469861,34.2201205 14.4469861,34.2201205" id="Line"></path>
+                        <path d="M538.430758,1.11752987 C538.430758,1.11752987 524.319885,5.64455552 524.319885,16.9336675 C524.319885,28.2227794 538.766872,34.2201205 538.766872,34.2201205" id="Line" transform="translate(531.543379, 17.668825) scale(-1, 1) translate(-531.543379, -17.668825) "></path>
                     </g>
+                    <rect id="Rectangle-222" fill="#000000" x="32.2670001" y="61.5003784" width="473.637961" height="244.252075"></rect>
                 </g>
-                <rect id="Rectangle-222" fill="#000000" sketch:type="MSShapeGroup" x="182" y="64.923405" width="500" height="257.84681"></rect>
             </g>
         </g>
     </g>
