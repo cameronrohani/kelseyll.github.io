@@ -46,7 +46,7 @@ p {
     font-size: 1em;
 }
 h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     color: #000;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.6px;
@@ -92,7 +92,7 @@ span {
 .links li {
     list-style: none;
     display: inline-block;
-    padding: 0 40px 0 0;
+    padding: 0 40px 0 0;f
 }
 .links ul {
     padding: 0;
@@ -128,7 +128,7 @@ i {
     animation: fadeup 1.5s;
 }
 .arrow {
-    margin-top: -5rem;
+    margin-top: -3rem;
     transition: all .3s ease-in-out;
 }
 .link-underline:hover:after {
@@ -251,7 +251,7 @@ header .link-underline:after {
 }
 .hero-content h1 {
     padding-top: 6rem;
-    max-width: 580px;
+    max-width: 780px;
 }
 .flex-end {
     right: 0;
