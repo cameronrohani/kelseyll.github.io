@@ -80,7 +80,7 @@ p a.pink:hover {
     transition: background-color 0.5s;
 }
 span {
-    padding: 30px 0 10px 0;
+    padding: 10px 0;
     font-family: 'Playfair Display', serif;
     font-size: 16px;
 }
