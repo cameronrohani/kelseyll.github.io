@@ -150,6 +150,9 @@ header .link-underline:after {
 .hero-content i {
     padding-top: 7rem;
 }
+.oops .hero-content {
+    height: 100vh;
+}
 /* Work Items ----------------------------------- */
 .images {
   overflow: hidden;
@@ -279,6 +282,25 @@ i,
     max-width: 800px;
     margin: auto;
 }
+/*404 Page ----------------------------------- */
+.oops h1 {
+    color: rgba(0,0,0,1);
+    padding: 0 20px;
+    z-index: 99;
+    transform: translate(0, 200px);
+}
+.oops a {
+    border-bottom: 2px solid rgba(0,0,0,1);
+    color: rgba(0,0,0,1);
+    transform: translate(0, 200px);
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.oops a:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
 /* Media Queries ----------------------------------- */
 @media (max-width: 1200px) {
     .hero-content {
@@ -302,6 +324,13 @@ i,
 @media (max-width: 650px) {
     body {
         margin: calc(100vw/30);
+    }
+    .oops body {
+        margin: 0;
+        padding: 0 50px;
+    }
+    .oops img {
+        width: 90%;
     }
     .flex-row {
         display: block;
