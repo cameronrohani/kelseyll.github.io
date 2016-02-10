@@ -163,6 +163,9 @@ header .link-underline:after {
   top: 0;
   z-index: 10;
 }
+img.img-behind {
+    z-index: -99;
+}
 .images img {
     width: 100%;
 }
