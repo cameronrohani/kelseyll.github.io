@@ -79,10 +79,8 @@ p a.pink:hover {
 }
 span {
     display: block;
-    text-align: center;
     font-weight: 200;
     letter-spacing: 0.9px;
-    margin: 20px 0 ;
     font-size: 16px;
     padding: 3px 0;
     color: #BDBDBD;
