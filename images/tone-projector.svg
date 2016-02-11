@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="863px" height="466px" viewBox="0 0 863 466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="907px" height="489px" viewBox="0 0 907 489" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
     <title>work-item-images</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="-125.779544%" x2="50%" y2="100%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#FFE7C0" offset="100%"></stop>
+            <stop stop-color="#E7E7E7" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="work-item-images" sketch:type="MSArtboardGroup">
-            <g id="touch-tone" sketch:type="MSLayerGroup" transform="translate(0.000000, 32.153190)">
-                <g id="projector" transform="translate(151.835013, 0.232865)" sketch:type="MSShapeGroup">
-                    <g id="projector-string" transform="translate(278.787423, 354.238244)" stroke-width="0.8044695">
-                        <path d="M5.51690151,0.368231023 L5.51690151,26.9097339" id="Line" stroke="#666666" stroke-linecap="square"></path>
-                        <ellipse id="Oval-9" stroke="#4A4A4A" cx="5.14910808" cy="33.1407921" rx="5.14910808" ry="5.15523432"></ellipse>
+            <g id="touch-tone" sketch:type="MSLayerGroup" transform="translate(0.000000, 33.780141)">
+                <g id="projector" transform="translate(159.517864, 0.244648)" sketch:type="MSShapeGroup">
+                    <g id="projector-string" transform="translate(292.894067, 372.162699)" stroke="#9B9B9B" stroke-width="0.845175657">
+                        <path d="M5.79605673,0.386863513 L5.79605673,28.2713664" id="Line" stroke-linecap="square"></path>
+                        <ellipse id="Oval-9" cx="5.40965295" cy="34.8177162" rx="5.40965295" ry="5.41608918"></ellipse>
                     </g>
-                    <rect id="projector-screen" stroke="#9B9B9B" stroke-width="0.8044695" fill="#FFF4E2" x="33.5683829" y="35.3501782" width="494.868392" height="322.570376" rx="1.608939"></rect>
-                    <path d="M0,17.6750891 C0,17.6750891 -2.50879635e-13,28.7220198 15.4473242,35.3501782 C30.1590616,35.3501782 414.135407,36.0866403 546.541553,35.3501782 C547.27663,36.0866403 561.988368,29.4584818 561.988368,16.9386271" id="Path-80" fill="url(#linearGradient-1)"></path>
-                    <path d="M0,1.85506813 C0,1.85506813 -2.50879635e-13,12.9019988 15.4473242,19.5301572 C30.1590616,19.5301572 414.135407,20.2666193 546.541553,19.5301572 C547.27663,20.2666193 561.988368,13.6384609 561.988368,1.11860608" id="Path-80" fill="#FFFFFF" transform="translate(280.994184, 10.488040) scale(1, -1) translate(-280.994184, -10.488040) "></path>
-                    <g id="projector-top" stroke="#9B9B9B" stroke-width="0.8044695" stroke-linecap="square">
-                        <path d="M0.367793434,17.3068581 L561.620574,17.3068581" id="Line"></path>
-                        <path d="M15.0795308,35.7184092 L546.908837,35.7184092" id="Line"></path>
-                        <path d="M15.0795308,1.10469307 L546.908837,1.10469307" id="Line"></path>
-                        <path d="M14.7287008,1.16645963 C14.7287008,1.16645963 -5.17365096e-07,5.89169591 -5.17340288e-07,17.6750886 C-5.1731548e-07,29.4584814 15.0795308,35.7184092 15.0795308,35.7184092" id="Line"></path>
-                        <path d="M562.005331,1.16645963 C562.005331,1.16645963 547.27663,5.89169591 547.27663,17.6750886 C547.27663,29.4584814 562.356161,35.7184092 562.356161,35.7184092" id="Line" transform="translate(554.816395, 18.442434) scale(-1, 1) translate(-554.816395, -18.442434) "></path>
+                    <rect id="projector-screen" stroke="#AAAAAA" stroke-width="0.845175657" fill="#F9F9F9" x="35.266943" y="37.1388972" width="519.908733" height="338.892437" rx="1.69035131"></rect>
+                    <path d="M0,18.5694486 C0,18.5694486 -2.63574144e-13,30.175354 16.2289588,37.1388972 C31.6851101,37.1388972 435.090659,37.9126243 574.196555,37.1388972 C574.968828,37.9126243 590.424979,30.949081 590.424979,17.7957216" id="Path-80" fill="url(#linearGradient-1)"></path>
+                    <path d="M0,1.94893457 C0,1.94893457 -2.63574144e-13,13.55484 16.2289588,20.5183832 C31.6851101,20.5183832 435.090659,21.2921102 574.196555,20.5183832 C574.968828,21.2921102 590.424979,14.328567 590.424979,1.17520755" id="Path-80" fill="#FFFFFF" transform="translate(295.212489, 11.018735) scale(1, -1) translate(-295.212489, -11.018735) "></path>
+                    <g id="projector-top" stroke="#AAAAAA" stroke-width="0.845175657" stroke-linecap="square">
+                        <path d="M0.386403782,18.1825851 L590.038575,18.1825851" id="Line"></path>
+                        <path d="M15.8425551,37.5257608 L574.582424,37.5257608" id="Line"></path>
+                        <path d="M15.8425551,1.16059054 L574.582424,1.16059054" id="Line"></path>
+                        <path d="M15.473973,1.22548249 C15.473973,1.22548249 -5.43543692e-07,6.18981572 -5.43517628e-07,18.5694481 C-5.43491565e-07,30.9490805 15.8425551,37.5257608 15.8425551,37.5257608" id="Line"></path>
+                        <path d="M590.442801,1.22548249 C590.442801,1.22548249 574.968827,6.18981572 574.968827,18.5694481 C574.968827,30.9490805 590.811383,37.5257608 590.811383,37.5257608" id="Line" transform="translate(582.890105, 19.375622) scale(-1, 1) translate(-582.890105, -19.375622) "></path>
                     </g>
-                    <rect id="Rectangle-222" fill="#000000" x="33.6797737" y="64.1931018" width="494.375656" height="254.946372"></rect>
+                    <rect id="Rectangle-222" fill="#000000" x="35.3839702" y="67.4412728" width="519.391064" height="267.846658"></rect>
                 </g>
             </g>
         </g>
