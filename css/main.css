@@ -169,24 +169,26 @@ header .link-underline:after {
     padding-top: 2rem;
     max-width: 650px;
 }
-.hover-shape {
-    display: none;
-}
 /* Work Items ----------------------------------- */
 .images {
   overflow: hidden;
   position: relative;
 }
+.hover-shape {
+    overflow: hidden;
+    position: relative;
+}
 .images img:not(:first-of-type) {
   position: absolute;
   top: 0;
-  z-index: 10;
+  left: 0;
 }
 img.img-behind {
     z-index: -99;
 }
 .images img {
     width: 100%;
+    position: relative;
 }
 .slider img.showing {
 	opacity: 1;
@@ -199,6 +201,7 @@ img.img-behind {
   height: 100%;
   overflow: hidden;
   position: absolute;
+  z-index: -20;
   top: 0;
   left: 0;
 }
@@ -243,6 +246,42 @@ img.img-behind {
     line-height: 1.6;
     padding: 0;
 }
+.click-to-see-more {
+    position: absolute;
+    display: block;
+    width: 60%;
+    height: 89%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 99;
+}
+
+.poop {
+    z-index: -99999;
+}
+
+.hover-shape-inner {
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.hover-shape-middle {
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+
+.hover-shape-outer {
+    opacity: 0;
+    transition: all .6s ease-in-out;
+}
+
+.click-to-see-more:hover ~ .poop {
+    opacity: 1;
+}
+
 /* Grid ----------------------------------- */
 .flex {
     display: -webkit-flex;
