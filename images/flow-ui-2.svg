@@ -40,9 +40,9 @@
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="work-item-images" sketch:type="MSArtboardGroup">
-            <g id="flow" sketch:type="MSLayerGroup" transform="translate(28.840000, -29.870000)">
-                <g id="iMac" transform="translate(115.149796, 28.736176)">
-                    <g id="screen" transform="translate(56.281621, 42.713402)">
+            <g id="flow" sketch:type="MSLayerGroup" transform="translate(28.840000, -1.870000)">
+                <g id="iMac" transform="translate(115.149796, 0.736176)">
+                    <g id="screen" transform="translate(56.281621, 36.713402)">
                         <mask id="mask-2" sketch:name="Mask" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
