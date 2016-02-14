@@ -412,7 +412,7 @@ i,
         height: calc(100vh - 190px);
     }
     .hero-content h1 {
-        max-width: 300px;
+        max-width: 400px;
         margin-top: -2rem;
         font-size: 1.2em;
     }
@@ -423,7 +423,8 @@ i,
     }
     p,
     .list-item span,
-    .list-item a {
+    .list-item a,
+    footer {
         font-size: 0.8em;
     }
     .oops h1 {
