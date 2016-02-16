@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.flow-case1 {
+    max-width: 1350px;
+}
+.flow-case2 {
+    max-width: 1400px;
+}
+.logo-case {
+    max-width: 612px;
+}
