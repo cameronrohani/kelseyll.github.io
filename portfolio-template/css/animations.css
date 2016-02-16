@@ -1,0 +1,31 @@
+/*
+Kelsey Legault
+January 2016
+ */
+
+/* Animations ----------------------------------- */ 
+
+/*Fadeup, for main content (h1)*/
+@-webkit-keyframes fade-right {
+    0%     { opacity: 0; -webkit-transform: translate(-10px, 0);}
+}
+@-moz-keyframes fade-right {
+    0%     { opacity: 0; -moz-transform: translate(-10px, 0);}
+}
+@keyframes fade-right {
+    0%    { opacity: 0; transform: translate(-10px, 0);}
+}
+
+/*Fade-right__delay, for sub-content*/
+@-webkit-keyframes fade-right__delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -webkit-transform: translate(-10px, 0);}
+}
+@-moz-keyframes fade-right__delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -moz-transform: translate(-10px, 0);}
+}
+@keyframes fade-right__delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; transform: translate(-10px, 0);}
+}
