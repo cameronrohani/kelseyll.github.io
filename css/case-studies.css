@@ -25,7 +25,7 @@ img {
 }
 .flow-case1 img,
 .flow-case2 img {
-    max-width: 475px;
+    max-width: 575px;
 }
 .logo-case {
     max-width: 612px;
@@ -42,6 +42,12 @@ img {
         -webkit-flex-direction: row;
         -moz-flex-direction: row;
         flex-direction: row;
+    }
+}
+@media (min-width: 1000px) {
+    .flow-case1 img,
+    .flow-case2 img {
+        max-width: 450px;
     }
 }
 @media (min-width: 1210px) {

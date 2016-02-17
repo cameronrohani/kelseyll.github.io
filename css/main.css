@@ -86,8 +86,8 @@ span {
     font-size: 22px;
     padding: 0 0 3px 0;
     text-align: center;
-    color: #BDBDBD;
     margin-top: -20px;
+    color: #BDBDBD;
 }
 span u {
     text-decoration: none;
@@ -255,8 +255,7 @@ img.img-behind {
     padding-bottom: 150px;
 }
 .list {
-    padding: 0 30px;
-    max-width: 860px;
+    max-width: 700px;
     margin: auto;
     margin-bottom: 100px;
 
@@ -410,6 +409,12 @@ i,
         padding: 30px 30px;
     }
 }
+@media(max-width: 750px) {
+    .list {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 @media (max-width: 550px) {
     body {
         margin: calc(100vw/30);
@@ -498,7 +503,4 @@ i,
     .flex-end .link-underline:after {
     right: auto;
     left: 0;
-}
-@media (min-width: 650px) {
-
 }
