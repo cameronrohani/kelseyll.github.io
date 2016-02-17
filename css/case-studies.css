@@ -1,7 +1,7 @@
 img {
     margin: 0 20px;
     width: 100%;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    border: 1px #E2E2E2 solid;
 }
 .case-hero {
     height: 300px;
@@ -9,6 +9,9 @@ img {
 }
 .case-hero p {
     text-align: center;
+}
+.case-hero span {
+    color: #000;
 }
 .flow-case1 p,
 .flow-case2 p {
