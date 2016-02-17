@@ -461,6 +461,9 @@ i,
     #work {
         padding-top: 30px;
     }
+    .contact-dropdown {
+        color: red;
+    }
     .work-item {
         padding-bottom: 100px;
     }
