@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73962302-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 <head>
   <title> ~ hello </title>
   <!-- Facebook Meta Properties -->
@@ -26,14 +16,14 @@
   <meta name="author" content="Kelsey Legault">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
   <!-- Mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/animations.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/animations.css">
 
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
@@ -41,7 +31,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
   <!-- Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73962302-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 <body>
   <header class="flex flex__spread">
@@ -50,7 +48,7 @@
     </div>
     <nav class="links">
       <ul>
-        <li><a class="link-underline" href="#work">work</a></li>
+        <li><a class="link-underline" href="/#work">work</a></li>
         <li><a id="contact" class="link-underline" target="_blank" href="mailto:kelsey.legault@gmail.com">contact</a></li>
       </ul>
     </nav>
@@ -58,27 +56,27 @@
   <div class="flex hero-content flex__vertical-center flex__horizontal-center flex-col">
     <h1 class="hero-text-animation">I am a designer studying computer science and visual arts in Victoria, BC.</h1>
     <div>
-      <a href="#work"><i class="arrow zmdi zmdi-hc-2x zmdi-chevron-down"></i></a>
+      <a href="/#work"><i class="arrow zmdi zmdi-hc-2x zmdi-chevron-down"></i></a>
     </div>
   </div>
   <!-- Flow -->
     <div id="work" class="work-item">
         <div class="images">
-            <a href="flow.html" class="click-to-see-more"></a>
-            <img class="poop hover-shape-inner" src="images/hover-shape-inner.svg" alt="" />
-            <img class="poop hover-shape-middle" src="images/hover-shape-middle.svg" alt="" />
-            <img class="poop hover-shape-outer" src="images/hover-shape-outer.svg" alt="" />
+            <a href="/flow" class="click-to-see-more"></a>
+            <img class="poop hover-shape-inner" src="/images/hover-shape-inner.svg" alt="" />
+            <img class="poop hover-shape-middle" src="/images/hover-shape-middle.svg" alt="" />
+            <img class="poop hover-shape-outer" src="/images/hover-shape-outer.svg" alt="" />
             <div class="slider">
-                <img class="flow-graph screen" src="images/flow-ui-2.svg">
-                <img class="flow-graph screen" src="images/flow-ui-1.svg">
+                <img class="flow-graph screen" src="/images/flow-ui-2.svg">
+                <img class="flow-graph screen" src="/images/flow-ui-1.svg">
             </div>
-            <img src="images/flow-comp.svg">
+            <img src="/images/flow-comp.svg">
         </div>
         <div class="text">
-            <span><a href="flow.html">Flow Internship</a> / May to August 2015</span>
+            <span><a href="/flow">Flow Internship</a> / May to August 2015</span>
             <p>
                 I completed a summer internship with <a target="_blank" href="http://metalab.co/">MetaLab</a>, doing design work
-                for <href="https://www.getflow.com/">Flow</a>. I found my fit by producing <a href="flow.html">designs</a> for Flow’s
+                for <href="https://www.getflow.com/">Flow</a>. I found my fit by producing <a href="/flow">designs</a> for Flow’s
                 marketing team, helping out with the workload of Flow's awesome lead designer, Emma. I was happy to contribute during
                 such an exciting time at Flow; I helped the team prepare for a huge product launch that September (Flow Chat).
             </p>
@@ -88,13 +86,13 @@
     <div class="work-item">
     <div class="images">
         <a target="_blank" href="/waitwhat" class="click-to-see-more"></a>
-        <img class="poop hover-shape-inner" src="images/hover-shape-inner.svg" alt="" />
-        <img class="poop hover-shape-middle" src="images/hover-shape-middle.svg" alt="" />
-        <img class="poop hover-shape-outer" src="images/hover-shape-outer.svg" alt="" />
-        <img src="images/waitwhat-clip-left.gif">
-        <img src="images/waitwhat-clip-background.png">
-        <img src="images/waitwhat-clip.gif">
-        <img src="images/waitwhat-clip-right.gif">
+        <img class="poop hover-shape-inner" src="/images/hover-shape-inner.svg" alt="" />
+        <img class="poop hover-shape-middle" src="/images/hover-shape-middle.svg" alt="" />
+        <img class="poop hover-shape-outer" src="/images/hover-shape-outer.svg" alt="" />
+        <img src="/images/waitwhat-clip-left.gif">
+        <img src="/images/waitwhat-clip-background.png">
+        <img src="/images/waitwhat-clip.gif">
+        <img src="/images/waitwhat-clip-right.gif">
     </div>
     <div class="text">
         <span><a target="_blank" href="/waitwhat">Media Installation</a> / November 2015</span>
@@ -109,16 +107,16 @@
     <!-- Logo -->
     <div id="logo" class="work-item">
         <div class="images">
-            <a href="logo.html" class="click-to-see-more"></a>
-            <img class="poop hover-shape-inner" src="images/hover-shape-inner.svg" alt="" />
-            <img class="poop hover-shape-middle" src="images/hover-shape-middle.svg" alt="" />
-            <img class="poop hover-shape-outer" src="images/hover-shape-outer.svg" alt="" />
-            <img src="images/logo.svg">
-            <img src="images/logo-clip-background.svg">
-            <img src="images/logo-clip.gif">
+            <a href="/logo" class="click-to-see-more"></a>
+            <img class="poop hover-shape-inner" src="/images/hover-shape-inner.svg" alt="" />
+            <img class="poop hover-shape-middle" src="/images/hover-shape-middle.svg" alt="" />
+            <img class="poop hover-shape-outer" src="/images/hover-shape-outer.svg" alt="" />
+            <img src="/images/logo.svg">
+            <img src="/images/logo-clip-background.svg">
+            <img src="/images/logo-clip.gif">
         </div>
         <div class="text">
-            <span><a href="logo.html">Logo Design</a> / October 2015</span>
+            <span><a href="/logo">Logo Design</a> / October 2015</span>
             <p>
                 A logo mock up I designed for my brother. He was starting up an aerial media
                 company and was looking for a simple logo and watermark for his footage.
@@ -129,11 +127,11 @@
     <div class="work-item">
         <div class="images">
             <a target="_blank" href="https://vimeo.com/155639122" class="click-to-see-more"></a>
-            <img class="poop hover-shape-inner" src="images/hover-shape-inner.svg" alt="" />
-            <img class="poop hover-shape-middle" src="images/hover-shape-middle.svg" alt="" />
-            <img class="poop hover-shape-outer" src="images/hover-shape-outer.svg" alt="" />
-            <img src="images/tone-projector.svg">
-            <img src="images/tone-clip.gif">
+            <img class="poop hover-shape-inner" src="/images/hover-shape-inner.svg" alt="" />
+            <img class="poop hover-shape-middle" src="/images/hover-shape-middle.svg" alt="" />
+            <img class="poop hover-shape-outer" src="/images/hover-shape-outer.svg" alt="" />
+            <img src="/images/tone-projector.svg">
+            <img src="/images/tone-clip.gif">
         </div>
         <div class="text">
             <span><a target="_blank" href="https://vimeo.com/155639122">Sound Art Installation</a> / November 2015</span>
@@ -164,7 +162,7 @@
                 <span>Jan 2016</span>
                 <div class="flex-row flex__spread links flex">
                     <p>I designed a minimal portfolio template</p>
-                    <a href="portfolio-template/" target="_blank">> &nbsp; see it</a>
+                    <a href="/portfolio-template" target="_blank">> &nbsp; see it</a>
                 </div>
             </div>
             <div class="list-item">
@@ -212,6 +210,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" defer></script>
+    <script type="text/javascript" src="/js/index.js" defer></script>
 </body>
 </html>
