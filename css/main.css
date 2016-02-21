@@ -68,13 +68,13 @@ a {
     color: #000;
 }
 p a {
-    border-bottom: 1px solid #BDBDBD;
+    border-bottom: 1px solid #757575;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
 p a:hover,
 .work-item span a:hover {
-    color: #BDBDBD;
+    color: #757575;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
@@ -87,14 +87,14 @@ span {
     padding: 0 0 3px 0;
     text-align: center;
     margin-top: -20px;
-    color: #BDBDBD;
+    color: #757575;
 }
 span u {
     text-decoration: none;
-    color: #BDBDBD;
+    color: #757575;
 }
 span a {
-    border-bottom: 1px solid #BDBDBD;
+    border-bottom: 1px solid #757575;
     -webkit-transition: color 0.3s;
     transition: color 0.5s;
 }
@@ -103,17 +103,6 @@ span a {
     font-size: 16px;
     padding: 3px 0 0 0;
     margin: 0;
-}
-.list a {
-    transition: color 0.3s;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-}
-.list a:hover {
-    color: #BDBDBD;
-    transition: color 0.3s;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
 }
 .not-live {
     color: #9E9E9E;
@@ -143,7 +132,7 @@ ul li:last-of-type {
     -moz-transition: color 0.3s;
 }
 .link-underline:hover {
-    color: #BDBDBD;
+    color: #757575;
     transition: color 0.3s;
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
@@ -155,7 +144,7 @@ ul li:last-of-type {
     bottom: -1px;
     width: 0;
     height: 1px;
-    background-color: #BDBDBD;
+    background-color: #757575;
     content: "";
     transition: width 0.5s;
 }
@@ -264,10 +253,30 @@ img.img-behind {
     border-bottom: 1px solid #000;
     margin-bottom: 30px;
 }
-.list-item p,
 .list-item a {
-    display: inline-block;
+    display: block;
+    width: 100%;
     padding: 10px 0;
+}
+.list i {
+    padding-bottom: 0;
+    padding-right: 8px;
+    float: right;
+    padding-top: 4px;
+    transition-duration: 0.2s;
+}
+@media (min-width: 550px) {
+    .list i {
+        padding-top: 8px;
+    }
+}
+.list i:hover,
+.list-hover-move {
+    transform: translate(10px, 0);
+    transition-duration: 0.5s;
+}
+.list-hover-color {
+    color: #757575;
 }
 .work-item ul,
 .work-item ul li {
